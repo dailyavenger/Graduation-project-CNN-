@@ -49,12 +49,12 @@ Loss: 0.5479, Difference: 0.5643
 
 Attention Map은 모델이 이미지 데이터들의 어떤 영역을 중요하게 보는지를 보여준다.
 우리는 모델의 Attention Map을 시각화하기 위해 Grad-CAM을 사용하였다.
-그 결과 모델이 페이지 상단에 해당 논문이 Published됬는지 안됬는지 여부를 알려주는 글자를 집중적으로 보고있다는 결과가 나왔습니다.
+그 결과 모델이 페이지 상단에 해당 논문이 Published됬는지 안됬는지 여부를 알려주는 글자를 집중적으로 보고있다는 결과가 나왔다.
 
 ![image](https://user-images.githubusercontent.com/65271296/191186530-d764b035-c08a-48a7-a26f-a826a41d1e88.png)
 
 <이미지 마스킹>
-페이지마다 상단을 하얀 여백으로 바꿔서 published 여부에서 논문의 평점에 대한 힌트를 얻을 수 없도록 하였습니다. 
+페이지마다 상단을 하얀 여백으로 바꿔서 published 여부에서 논문의 평점에 대한 힌트를 얻을 수 없도록 하였다. 
 
 ![캡처11](https://user-images.githubusercontent.com/65271296/191186817-677b91ed-f7fd-45c9-9d6f-a594aad4d2dc.JPG)
 
